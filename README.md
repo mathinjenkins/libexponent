@@ -14,6 +14,4 @@ The implementation iteratively multiplies `x` by itself `n` times.
 * `./test/exponent_test`
 
 ### License
-MIT License. 
-
-Copyright (c) 2019 Abdelrahman Hosny
+[MIT License](https://github.com/mathinjenkins/libexponent/blob/master/LICENSE)
