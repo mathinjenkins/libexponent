@@ -1,4 +1,4 @@
-cd ../unified-build/stirling/
+cd ../unified-builds/stirling/
 git pull
 git submodule update --remote
 cd module/libexponent

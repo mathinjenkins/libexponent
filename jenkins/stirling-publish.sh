@@ -1,5 +1,5 @@
 # merge stirling to master
-cd ../unified-build/stirling/module/libexponent
+cd ../unified-builds/stirling/module/libexponent
 git checkout master
 git merge stirling
 git push
