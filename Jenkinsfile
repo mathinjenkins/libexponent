@@ -16,7 +16,15 @@ pipeline {
         branch 'stirling'
       }
       steps {
-        echo 'Update stirling workspace and testing new libexponent features'
+        sh './jenkins/stirling-build.sh'
+      }
+    }
+    stage('Publish') {
+      when {
+        branch 'stirling'
+      }
+      steps {
+        sh './jenkins/stirling-publish.sh'
       }
     }
   }
