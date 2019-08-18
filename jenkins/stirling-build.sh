@@ -7,4 +7,3 @@ cd ../../
 ./build.sh
 
 # run arbitrary tests
-# to be completed
