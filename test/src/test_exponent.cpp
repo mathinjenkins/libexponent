@@ -13,6 +13,12 @@ TEST(NegativeBaseTest, calculate)
     ASSERT_TRUE(result == 25);
 }
 
+TEST(ZeorPowerTest, calculate)
+{
+    auto result = CalculateExponent(5, 0);
+    ASSERT_TRUE(result == 1);
+}
+
 int main(int argc, char **argv)
 {
   ::testing::InitGoogleTest(&argc, argv);
