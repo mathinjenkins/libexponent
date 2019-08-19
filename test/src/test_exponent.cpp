@@ -18,6 +18,11 @@ TEST(ZeorPowerTest, calculate)
     auto result = CalculateExponent(5, 0);
     ASSERT_TRUE(result == 1);
 }
+TEST(NegativePowerTest, calculate)
+{
+    auto result = CalculateExponent(5, 3);
+    ASSERT_TRUE(result == 125);
+}
 
 int main(int argc, char **argv)
 {
