@@ -4,8 +4,4 @@ include(CMakeFindDependencyMacro)
 list(APPEND CMAKE_MODULE_PATH ${Exponent_CMAKE_DIR})
 list(REMOVE_AT CMAKE_MODULE_PATH -1)
 
-if(NOT TARGET Exponent::Exponent)
-    include("${Exponent_CMAKE_DIR}/ExponentTargets.cmake")
-endif()
-
 set(Exponent_LIBRARIES Exponent::Exponent)
